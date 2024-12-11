@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayDemo1</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function ArrayMax()
+        {
+            var arr = [];
+            var n = Number(prompt("Enter size of array: "));
+            for(i=0; i<n;i++)
+            {
+                arr[i] = Number(prompt("Enter element " + i+ ":")); 
+            }
+            console.log(arr);
+            document.write("<h3>"+arr+"</h3>");
+            var max = arr[0];
+            for(i=0;i<n;i++)
+            {
+                if(arr[i]>max)
+                {
+                    max = arr[i];
+                }
+            }
+            document.write("<h4>"+max+"</h4>");
+            console.log(max);
+        }
+        ArrayMax();
+    </script>
+</body>
+</html>

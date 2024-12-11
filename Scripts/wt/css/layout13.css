@@ -1,0 +1,96 @@
+* {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.maindiv {
+
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.midpart {
+
+    width: 100%;
+
+}
+
+.left {
+
+    width: 20%;
+    height: 440px;
+    float: left;
+}
+
+.middle {
+
+    width: 60%;
+    height: 440px;
+    float: left;
+}
+
+.row1 {
+    width: 100%;
+
+}
+
+.maincontent {
+    width: 59%;
+    height: 220px;
+    background-color: greenyellow;
+    float: left;
+    color: #fff;
+}
+
+.sidebar {
+    width: 40%;
+    height: 220px;
+    background-color: rgb(232, 96, 239);
+    margin-left: 5px;
+    float: left;
+    color: #fff;
+}
+
+.row2 {
+    width: 100%;
+}
+
+.twin {
+    width: 49%;
+    height: 200px;
+    background-color: orange;
+    float: left;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.twin1 {
+    width: 50%;
+    height: 200px;
+    background-color: orange;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    color: #fff;
+}
+
+.right {
+
+    width: 20%;
+    height: 440px;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    background-color: blue;
+    margin-top: 5px;
+    color: #fff;
+}

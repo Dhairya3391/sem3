@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P12A3</title>
+    <style>
+        input
+        {
+            border-radius: 5px;
+            border: 2px solid navy;
+            box-shadow: 5px 5px rgb(93, 70, 70);
+        }
+    </style>
+</head>
+<body>
+    <button id="button1" onclick="ShowDate()" style="font-style: oblique; font: 2vh; background-color: black; height: 5vh; width:10vh ;  color: white;">Date</button>
+    <h3 id="date1" style="color: blue;"></h3>
+    <script type="text/javascript">
+        function ShowDate()
+        {
+            var data = document.getElementById('date1');
+            data.innerHTML = Date();
+        }
+        function formValidate(event)
+        {
+            console.log(event);
+        }
+        function formValidate2(event)
+        {
+            console.log(event);
+        }
+        
+    </script>
+    <input type="text" onblur="formValidate(event)">
+    <input type="text" onfocus="formValidate2(event)">
+</body>
+</html>

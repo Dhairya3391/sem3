@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Mouse_evemt</title>
+    </head>
+    <body>
+        <h1 id="h" onmouseover="mouse_hover(event)" onmouseout="mt(event)">Darshan University</h1>
+
+        <button id="c1" onclick="clickdate()">click show time and date information</button>
+        <h3 id="r1"></h3>
+
+        <button onclick="red()">Red</button>
+        <button onclick="green()">green</button>
+        <button onclick="blue()">blue</button>
+    </body>
+    <script>
+        function mouse_hover(event)
+        {
+            document.getElementById("h").style.color="red"
+        }
+        function mt(event)
+        {
+            document.getElementById("h").style.color="black"
+        }
+        function clickdate()
+        {
+            document.getElementById("r1").innerHTML=Date()
+        }
+
+        function red()
+        {
+            document.body.style.backgroundColor="red"
+        }
+        function green()
+        {
+            document.body.style.backgroundColor="green"
+        }
+        function blue()
+        {
+            document.body.style.backgroundColor="blue"
+        }
+    </script>
+
+
+</html>

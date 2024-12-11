@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-align: center;
+}
+.maindiv{
+    border: 2px solid black;
+    width: 100%;
+    padding: 20px;
+}
+.header{
+    width: 96%;
+    background-color: orange;
+    margin-bottom: 8px;
+    
+}
+.maincontent{
+    width: 100%;
+    
+}
+.nav{
+    width: 20%;
+    height: 409px;
+    background-color: orange;
+    float: left;
+    margin-right: 8px;
+}
+.article{
+    width: 60%;
+    height: 300px;
+    background-color: orange;
+    float: left;
+}
+.ads{
+    width: 14.50%;
+    height: 300px;
+    background-color: orange;
+    float: left;
+    margin-left: 10px;
+}
+.footer{
+    width: 75.50%;
+    height: 100px;
+    background-color: orange;
+    float: left;
+    margin-top: 8px;
+}

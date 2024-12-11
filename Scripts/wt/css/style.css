@@ -1,0 +1,64 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#a3 {
+    padding-top: 20px;
+}
+
+#a2 {
+    padding-top: 20px;
+}
+
+#a1 {
+
+    padding-top: 20px;
+}
+
+#a5 {
+    padding-top: 20px;
+}
+
+#a6 {
+    padding-top: 20px;
+}
+
+.b1 {
+    color: rgb(243, 6, 6);
+
+
+}
+
+.b2 {
+    font-family: cursive;
+    font-size: 20px;
+    background-image: url(p4.jpg);
+}
+
+th:hover {
+
+    background-color: rgb(100, 149, 237);
+
+    transform: translate3d(25px, 25px, 25px);
+    transition: background 1s;
+    box-shadow: 10px;
+
+
+
+}
+
+th {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+td:hover #t1 {
+    color: rgb(207, 253, 2);
+}
+
+#m1 {
+    color: #f80a0a;
+    font-family: cursive;
+}
