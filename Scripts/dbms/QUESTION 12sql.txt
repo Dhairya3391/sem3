@@ -1,11 +1,0 @@
---------------------- QESTION 12 --------------------------------
-
-
-create table employee (eid int,ename varchar(20),dept varchar(20),salary decimal(8,2),jdate date,city varchar(20))
-insert into employee values(101,'rahul','admin',56000,'1-jan-90','rajkot')
-insert into employee values(102, 'Hardik', 'IT',18000, '25-Sep-90', 'Ahmedabad')
-insert into employee values(103, 'Bhavin', 'HR',25000, '14-May-91', 'Baroda')
-insert into employee values(104, 'Bhoomi' ,'Admin',39000, '8-Feb-91', 'Rajkot')
-insert into employee values(105, 'Rohit', 'IT', 17000, '23-Jul-90', 'Jamnagar')
-insert into employee values(106, 'Priya','IT', 9000, '18-Oct-90','Ahmedabad')
-insert into employee values(107,'Neha' ,'HR' ,34000 ,'25-Dec-91' ,'Rajkot')select * from employee----------------- PART A ----------------------------------select ROUND(Max(salary),0) 'Maximum',(ROUND(Min(salary),0))'minimum',ROUND(sum(salary),0)'total',ROUND(avg(salary),0)'avg' from employeeselect COUNT(eid) from employeeselect Max(salary) from employee where dept='it';select count( distinct city) from employee  ;select city,count(ename) as 'count' from employee group by cityselect city,count(ename) as 'count' from employee group by city having count(city)>1select dept,sum(salary) as 'salary' from employee group by deptselect avg(salary) from employee group by deptselect min(salary) from employee where city='ahmedabad'select dept from employee where city='rajkot'  group by dept  having sum(salary)>50000 --------------------------------PART B--------------------------------------------select count(ename) from employee where city='rajkot' group by cityselect  max(salary) as 'max',min(salary) as 'min' from employee select abs(max(salary)-min(salary)) as 'Diffrence' from employeeselect count(ename) from employee where jdate<'1-jan-1991'select dept ,sum(salary) from employee group by dept having sum(salary)>35000 order by sum(salary)select dept,count(ename) as 'count' from employee group by dept having count(dept)>1
